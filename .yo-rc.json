@@ -1,0 +1,58 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "baseName": "project_gateway",
+    "blueprints": [],
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "angularX",
+    "clientPackageManager": "npm",
+    "clientTheme": "darkly",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1673823811692,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "devServerPort": 4200,
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": true,
+    "enableTranslation": true,
+    "entitySuffix": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.9.3",
+    "jwtSecretKey": "MzNkNTI5ZDExMTg4MzM5OWExNWJjYTI5OWIzNmE5Nzk1MmEwODBlYzJjOWM2MWIwZGQyYTEwMTFhNjA5MmI2MDQ5NzhhOTJiZDQ0ZmY2MjY4ZGZkMGI5MDA4OTJmMjdjNmRiMmM4ZGNmMTYxOTg5ODQwZTc0M2UxZTcxMTQ4NTA=",
+    "languages": ["en"],
+    "messageBroker": "kafka",
+    "microfrontend": true,
+    "microfrontends": [
+      {
+        "baseName": "metaenix"
+      },
+      {
+        "baseName": "metastore"
+      },
+      {
+        "baseName": "metalive"
+      }
+    ],
+    "nativeLanguage": "en",
+    "otherModules": [],
+    "packageName": "org.metacubic.enixmeta",
+    "pages": [],
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "searchEngine": "elasticsearch",
+    "serverPort": "8181",
+    "serverSideOptions": ["searchEngine:elasticsearch", "messageBroker:kafka", "enableSwaggerCodegen:true"],
+    "serviceDiscoveryType": "eureka",
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": false,
+    "skipFakeData": false,
+    "skipUserManagement": false,
+    "testFrameworks": [],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}
